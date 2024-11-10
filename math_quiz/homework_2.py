@@ -34,12 +34,10 @@ def create_math_problem(num1, num2, operator):
         num2 (int): The second operand.
         operator (str): The arithmetic operator ('+', '-', '*').
 
-    Returns:
-        tuple: A tuple containing the math problem as a string and an intentionally incorrect answer.
-    """
+   
     problem_text = f"{num1} {operator} {num2}"
     
-    # Deliberately set incorrect answer based on operator
+  
     if operator == '+':
         answer = num1 + num2
     elif operator == '-':
